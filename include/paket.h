@@ -9,6 +9,7 @@ class Paket: public Element{
     char* m_tip;
     public:
     Paket();
+    Paket(int sifra, int sifraMaterijala, float kolicina, const char* tip, const char* lot);
     ~Paket();
     friend std::istream& operator>>(std::istream& instream, Paket& p);
 
