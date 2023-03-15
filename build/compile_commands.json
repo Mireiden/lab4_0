@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles/main.dir/src/main.cpp.obj -c C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/main.cpp",
+  "file": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/build/include",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/element.dir/includes_CXX.rsp -g -o CMakeFiles/element.dir/__/src/element.cpp.obj -c C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/element.cpp",
+  "file": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/element.cpp",
+  "output": "include/CMakeFiles/element.dir/__/src/element.cpp.obj"
+},
+{
+  "directory": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/build/include",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/paket.dir/includes_CXX.rsp -g -o CMakeFiles/paket.dir/__/src/paket.cpp.obj -c C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/paket.cpp",
+  "file": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/paket.cpp",
+  "output": "include/CMakeFiles/paket.dir/__/src/paket.cpp.obj"
+},
+{
+  "directory": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/build/include",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/silos.dir/includes_CXX.rsp -g -o CMakeFiles/silos.dir/__/src/silos.cpp.obj -c C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/silos.cpp",
+  "file": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/silos.cpp",
+  "output": "include/CMakeFiles/silos.dir/__/src/silos.cpp.obj"
+},
+{
+  "directory": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/build/include",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/skladiste.dir/includes_CXX.rsp -g -o CMakeFiles/skladiste.dir/__/src/skladiste.cpp.obj -c C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/skladiste.cpp",
+  "file": "C:/Users/miros/Desktop/faks/OOP/lab/ws/lab4_0/src/skladiste.cpp",
+  "output": "include/CMakeFiles/skladiste.dir/__/src/skladiste.cpp.obj"
+}
+]

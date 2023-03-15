@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(lab4_0 VERSION 1.0 LANGUAGES CXX)
+add_subdirectory(include)
+add_executable(main src/main.cpp)
+target_include_directories(main PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(main PUBLIC element paket silos skladiste)

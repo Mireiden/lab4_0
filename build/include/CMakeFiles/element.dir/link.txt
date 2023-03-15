@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libelement.a CMakeFiles/element.dir/__/src/element.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libelement.a

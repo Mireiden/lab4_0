@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libsilos.a CMakeFiles/silos.dir/__/src/silos.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libsilos.a

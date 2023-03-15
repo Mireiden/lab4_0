@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libpaket.a CMakeFiles/paket.dir/__/src/paket.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libpaket.a
