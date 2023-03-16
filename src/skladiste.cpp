@@ -40,7 +40,7 @@ double Skladiste::getsum_kolicina(){
 void Skladiste::printall_sifra(){
     for (int i = 0; i < m_nNiza; i++)
     {
-        std::cout<<m_Elementi[i]->get_sifraMaterijala();
+        std::cout<<m_Elementi[i]->get_sifraMaterijala()<<std::endl;
     }
     
 }

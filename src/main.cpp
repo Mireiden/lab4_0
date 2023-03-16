@@ -5,7 +5,9 @@
 #include "silos.h"
 #include "paket.h"
 
-
+// //potrebno srediti add za uslov za kolicinu,
+// getsum mi ne racuna lepo,
+// i ostatak maina
 int main(){
 
     std::ifstream inFile("../data/unos.txt");
@@ -36,6 +38,7 @@ int main(){
 
 
     skladiste->printall_sifra();
+    std::cout<<skladiste->getsum_kolicina();
     inFile.close();
 
     return 0;
