@@ -2,6 +2,9 @@
 #include "element.h"
 #include <iostream>
 
+
+Skladiste::Skladiste():m_maxKapacitet(0),m_nNiza(0),m_Elementi(new Element*[m_nNiza]){}
+
 Skladiste::Skladiste(double kapacitet, int brel)
     :m_maxKapacitet(kapacitet),m_nNiza(brel)
     {
@@ -11,7 +14,6 @@ Skladiste::Skladiste(double kapacitet, int brel)
 Skladiste::~Skladiste(){
     delete m_Elementi;
 }
-
 
 void Skladiste::add_element(Element& element) {
     if (getsum_kolicina() + element.get_kolicina() <= m_maxKapacitet) {

@@ -9,6 +9,7 @@ class Skladiste {
     int m_nNiza;
     Element** m_Elementi;
     public:
+    Skladiste();
     Skladiste(double kapacitet, int brel);
     ~Skladiste();
     void add_element(Element& element);

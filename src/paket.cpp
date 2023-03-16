@@ -23,6 +23,9 @@ Paket::~Paket(){
 
 std::istream& operator>>(std::istream& instream, Paket& p){
     instream>>p.p_sifra>>p.p_sifraMaterijala>>p.p_kolicina>>p.m_lot>>p.m_tip;
+    if (!std::isalpha(p.m_tip[0]))
+    throw std::invalid_argument("Tip paketa mora poceti slovom!");
+
     return instream;
 }
 

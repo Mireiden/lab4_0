@@ -8,6 +8,8 @@
 
 int main(){
 
-    
+    Skladiste skladiste;
+
+
     return 0;
 }
