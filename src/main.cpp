@@ -8,8 +8,14 @@
 
 int main(){
 
-    Skladiste skladiste;
+    std::ifstream inFile("../data/unos.txt");
+    Skladiste* skladiste= new Skladiste;
 
+    while (!inFile.eof())
+    {
+        skladiste->add_element();
+    }
+    
 
     return 0;
 }
