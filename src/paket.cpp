@@ -22,5 +22,10 @@ Paket::~Paket(){
 }
 
 std::istream& operator>>(std::istream& instream, Paket& p){
-    instream>>p.p_sifra>>p.p_sifraMaterijala>>p.p_kolicina>>p.m_tip>>p.m_lot;
+    instream>>p.p_sifra>>p.p_sifraMaterijala>>p.p_kolicina>>p.m_lot>>p.m_tip;
+    return instream;
+}
+
+void Paket::print_element(){
+    std::cout<<p_sifra<<p_sifraMaterijala<<p_kolicina<<m_lot<<m_tip;
 }

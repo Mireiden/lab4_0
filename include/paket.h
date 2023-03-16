@@ -12,8 +12,7 @@ class Paket: public Element{
     Paket(int sifra, int sifraMaterijala, float kolicina, const char* tip, const char* lot);
     ~Paket();
     friend std::istream& operator>>(std::istream& instream, Paket& p);
-
-
+    void print_element() override;
 
 };
 #endif

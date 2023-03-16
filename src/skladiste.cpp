@@ -47,7 +47,7 @@ std::ostream& operator<<(std::ostream& stream, const Skladiste& s){
     stream<<"Elementi u skladistu:";
     for (int i = 0; i < s.m_nNiza; i++)
     {
-     stream<<s.m_Elementi[i];
+     s.m_Elementi[i]->print_element();
     }
-    
+    return stream;
 }

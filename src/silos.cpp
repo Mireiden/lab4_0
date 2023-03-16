@@ -19,8 +19,13 @@ Silos::~Silos(){
     delete[] m_lot;
 }
 
-std::istream& operator>>(std::istream& instream, Silos& s){
-    instream>>s.p_sifra>>s.p_sifraMaterijala>>s.m_lot>>s.m_max_kolicinaMaterijala;
+void Silos::print_element()
+{
+    std::cout<<p_sifra<<p_sifraMaterijala<<p_kolicina<<m_lot<<m_max_kolicinaMaterijala;
 }
 
+std::istream& operator>>(std::istream& instream, Silos& s){
+    instream>>s.p_sifra>>s.p_sifraMaterijala>>s.p_kolicina>>s.m_lot>>s.m_max_kolicinaMaterijala;
+    return instream;
+}
 
