@@ -25,7 +25,10 @@ void Silos::print_element()
 }
 
 std::istream& operator>>(std::istream& instream, Silos& s){
-    instream>>s.p_sifra>>s.p_sifraMaterijala>>s.p_kolicina>>s.m_lot>>s.m_max_kolicinaMaterijala;
+    char templot[50];
+    instream>>s.p_sifra>>s.p_sifraMaterijala>>s.p_kolicina>>templot>>s.m_max_kolicinaMaterijala;
+    s.m_lot=new char[strlen(templot)+1];
+    strcpy(s.m_lot,templot);
     if (s.p_kolicina>s.m_max_kolicinaMaterijala)
     {
         throw std::overflow_error("Greska: kolicina materijala u silosu prekoracuje maksimalnu vrednost.");

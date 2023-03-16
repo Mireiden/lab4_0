@@ -12,7 +12,7 @@ class Skladiste {
     Skladiste();
     Skladiste(double kapacitet, int brel);
     ~Skladiste();
-    void add_element(Element& element);
+    void add_element(Element* element);
     double getsum_kolicina();
     void printall_sifra();
     friend std::ostream& operator<<(std::ostream& stream, const Skladiste& s);

@@ -1,4 +1,5 @@
 #include "element.h"
+#include <iostream>
 Element::Element():p_sifra(0),p_kolicina(0),p_sifraMaterijala(0){}//default konstruktor mi je sranje al dobro
 Element::Element(int sifra, int sifraMaterijala, float kolicina)
         :p_sifra(sifra),p_sifraMaterijala(sifraMaterijala),p_kolicina(kolicina){}
@@ -24,4 +25,11 @@ Element &Element::operator=(const Element &e)
     p_kolicina=e.p_kolicina;
     p_sifra=e.p_sifra;
     p_sifraMaterijala=e.p_sifraMaterijala;
+
+    return *this;
 }
+
+// std::istream& operator>>(std::istream stream, Element& e)
+// {
+//     stream>>e.p_sifra>>e.p_sifraMaterijala>>e.p_kolicina;
+// }

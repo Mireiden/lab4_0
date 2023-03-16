@@ -15,17 +15,17 @@ Skladiste::~Skladiste(){
     delete m_Elementi;
 }
 
-void Skladiste::add_element(Element& element) {
-    if (getsum_kolicina() + element.get_kolicina() <= m_maxKapacitet) {
+void Skladiste::add_element(Element* element) {
+    //if (getsum_kolicina() + element->get_kolicina() <= m_maxKapacitet) {
         m_nNiza++;
         Element** temp = new Element*[m_nNiza];
         for(int i = 0; i < m_nNiza - 1; i++) {
             temp[i] = m_Elementi[i];
         }
-        temp[m_nNiza-1] = &element;
+        temp[m_nNiza-1] = element;
         delete[] m_Elementi;
         m_Elementi = temp;
-    }
+   // }
 }
 
 double Skladiste::getsum_kolicina(){

@@ -11,7 +11,7 @@ class Silos: public Element{
     Silos(int, int, float, char*, float);
     ~Silos();
     friend std::istream& operator>>(std::istream& instream, Silos& s);
-    friend std::ostream& operator<<(std::ostream& stream, Silos& s);
+    //friend std::ostream& operator<<(std::ostream& stream, Silos& s);
     void print_element() override;
 };
 
