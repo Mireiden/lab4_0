@@ -102,8 +102,8 @@ include/clean: include/CMakeFiles/silos.dir/clean
 
 # All Build rule for target.
 CMakeFiles/main.dir/all: include/CMakeFiles/element.dir/all
-CMakeFiles/main.dir/all: include/CMakeFiles/paket.dir/all
 CMakeFiles/main.dir/all: include/CMakeFiles/skladiste.dir/all
+CMakeFiles/main.dir/all: include/CMakeFiles/paket.dir/all
 CMakeFiles/main.dir/all: include/CMakeFiles/silos.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
