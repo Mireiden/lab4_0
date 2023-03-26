@@ -20,9 +20,9 @@ int main(){
     {
     std::string tip;
     inFile>>tip;
+        Silos* temp=new Silos;
     if (tip[0]=='s')
     {
-        Silos* temp=new Silos;
         inFile>>*temp;
         skladiste->add_element(temp);
     }
